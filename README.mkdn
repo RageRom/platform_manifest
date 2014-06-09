@@ -10,9 +10,6 @@ To get started with SlimKat, you'll need to get familiar with
 
 To initialize your local repository using our trees, use this command:
 
-
-for google, exynos and non qcom devices:
-
 	repo init -u git://github.com/RageRom/platform_manifest.git -b rage
 
 Then sync up with this command:
