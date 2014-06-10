@@ -1,11 +1,11 @@
-Welcome to SlimRoms
+Welcome to RageRom
 ===================
 
 
 Getting Started
 ---------------
 
-To get started with SlimKat, you'll need to get familiar with
+To get started with RageRom, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using our trees, use this command:
@@ -15,4 +15,12 @@ To initialize your local repository using our trees, use this command:
 Then sync up with this command:
 
 	repo sync
+====================
+
+Want to build it?
+
+        .build/envsetup.sh
+        brunch
+        select device
+        PROFIT!
 	
