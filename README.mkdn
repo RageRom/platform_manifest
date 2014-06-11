@@ -20,7 +20,7 @@ Then sync up with this command:
 Want to build it?
 
         . build/envsetup.sh
-        brunch
+        lunch
         select device
         PROFIT!
 	
