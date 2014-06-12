@@ -372,7 +372,6 @@
   <project path="system/media" name="android_system_media" remote="cm" revision="cm-11.0" />
    <!-- SlimRoms -->
   <project path="art" name="android_art" remote="slim" revision="kk4.4"  />
-  <project path="bionic" name="android_bionic" remote="slim" revision="kk4.4" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="kk4.4" />
   <project path="dalvik" name="android_dalvik" remote="slim" revision="kk4.4" />
   <project path="external/aac" name="android_external_aac" remote="slim" revision="kk4.4" />
@@ -393,7 +392,6 @@
   <project path="external/llvm" name="android_external_llvm" remote="slim" revision="kk4.4" />
   <project path="external/openssl" name="android_external_openssl" remote="slim" revision="kk4.4" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="slim" revision="kk4.4" />
-  <project path="external/skia" name="android_external_skia" remote="slim" revision="kk4.4" />
   <project path="external/srec" name="android_external_srec" remote="slim" revision="kk4.4" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="slim" revision="kk4.4" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="slim" revision="kk4.4" />
@@ -401,7 +399,6 @@
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="slim" revision="kk4.4" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="slim" revision="kk4.4" />
   <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="slim" revision="kk4.4" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slim" revision="kk4.4" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="slim" revision="kk4.4" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="slim" revision="kk4.4" />
   <project path="frameworks/rs" name="frameworks_rs" remote="slim" revision="kk4.4" groups="pdk" />
@@ -417,7 +414,6 @@
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="slim" revision="kk4.4" />
   <project path="libcore" name="platform_libcore" remote="slim" revision="kk4.4" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="slim" revision="kk4.4" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="slim" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" revision="kk4.4" />
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="slim" revision="kk4.4" />
@@ -463,13 +459,17 @@
   <project path="build" name="build" remote="rage" revision="rage" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bionic" name="android_bionic" remote="rage" revision="kk4.4" />
   <project path="development" name="android_development" remote="rage" revision="rage" />
-  <project path="frameworks/av" name="frameworks_av" remote="rage" revision="rage" />
-  <project path="frameworks/base" name="frameworks_base" remote="rage" revision="rage" />
-  <project path="frameworks/native" name="frameworks_native" remote="rage" revision="rage" />
+  <project path="external/skia" name="android_external_skia" remote="rage" revision="kk4.4" />
+  <project path="frameworks/av" name="frameworks_av" remote="rage" revision="kk4.4" />
+  <project path="frameworks/base" name="frameworks_base" remote="rage" revision="kk4.4" />
+  <project path="frameworks/native" name="frameworks_native" remote="rage" revision="kk4.4" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rage" revision="kk4.4" />
   <project path="pacakages/apps/Apollo" name="packages_apps_Apollo" remote="rage" revision="rage" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rage" revision="rage" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="rage" revision="rage" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="rage" revision="kk4.4" /> 
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rage" revision="kk4.4" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="rage" revision="kk4.4" />
   <project path="platform_manifest" name="platform_manifest" remote="rage" revision="rage" />
   <project path="system/core" name="android_system_core" remote="rage" revision="rage" />
   <project path="vendor/rage" name="vendor_rage" remote="rage" revision="rage" />
