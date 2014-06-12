@@ -466,7 +466,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="rage" revision="rage" />
   <project path="frameworks/native" name="frameworks_native" remote="rage" revision="rage" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rage" revision="rage" />
-  <project path="pacakages/apps/Apollo" name="packages_apps_Apollo" remote="rage" revision="rage" />
+  <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="rage" revision="rage" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="rage" revision="rage" /> 
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rage" revision="rage" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="rage" revision="rage" />
