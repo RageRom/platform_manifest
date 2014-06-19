@@ -10,7 +10,7 @@
   <remote name="cm"
            fetch="git://github.com/cyanogenmod/" />
 
-  <remote name="github"
+  <remote name="gh"
            fetch="git://github.com/" />
     
   <remote name="tm"
