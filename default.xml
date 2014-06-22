@@ -350,6 +350,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <!-- CM -->
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-11.0" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
@@ -451,7 +452,6 @@
   <project path="system/netd" name="android_system_netd" remote="slim" revision="kk4.4" />
   <project path="system/vold" name="android_system_vold" remote="slim" revision="kk4.4" />
   <!--SlimRoms Caf-->
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slim" revision="kk4.4-caf" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" revision="kk4.4-caf" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" revision="kk4.4-caf" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slim" revision="kk4.4-caf" />
