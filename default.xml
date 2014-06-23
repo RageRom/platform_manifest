@@ -257,7 +257,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
@@ -469,6 +468,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="rage" revision="rage" />
   <project path="frameworks/native" name="frameworks_native" remote="rage" revision="rage" />
   <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="rage" revision="rage" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="rage" revision="rage" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="rage" revision="rage" /> 
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rage" revision="rage" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="rage" revision="rage" />
