@@ -19,8 +19,9 @@ Then sync up with this command:
 
 Want to build it?
 
-        . build/envsetup.sh
-        lunch
+        . build/envsetup.sh && lunch
         select device
+        make bacon -jx (x defines the amount your machine can handel= example if you are Grimm -j16 will
+        build just fine, if me -j2 and slow cook it ;09......
         PROFIT!
 	
