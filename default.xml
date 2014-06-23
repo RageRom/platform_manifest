@@ -235,6 +235,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slim" revision="kk4.4" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -467,7 +468,6 @@
   <project path="frameworks/av" name="frameworks_av" remote="rage" revision="rage" />
   <project path="frameworks/base" name="frameworks_base" remote="rage" revision="rage" />
   <project path="frameworks/native" name="frameworks_native" remote="rage" revision="rage" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rage" revision="rage" />
   <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="rage" revision="rage" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="rage" revision="rage" /> 
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rage" revision="rage" />
