@@ -21,6 +21,6 @@ Want to build it?
 
         . build/envsetup.sh && lunch
         select device
-        make bacon -jx (x defines the amount your machine can handle - ex. -j12
+        make bacon -jx ("x" defines the amount of threads your machine can handle - ex. -j12)
         PROFIT!
 	
