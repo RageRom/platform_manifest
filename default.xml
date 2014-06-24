@@ -350,6 +350,9 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <!-- CM -->
+  <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="cm" revision="cm-11.0" />
+  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="cm" revision="cm-11.0" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-11.0" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-11.0" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
@@ -371,10 +374,12 @@
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-11.0" />
+  <project path="kernel/lge/ms8974" name="android_kernel_lge_ms8974" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0" />
   <project path="system/media" name="android_system_media" remote="cm" revision="cm-11.0" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-11.0" />
    <!-- SlimRoms -->
   <project path="art" name="android_art" remote="slim" revision="kk4.4"  />
   <project path="bionic" name="android_bionic" remote="slim" revision="kk4.4" />
