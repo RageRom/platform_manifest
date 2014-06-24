@@ -351,7 +351,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <!-- CM -->
   <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="cm" revision="cm-11.0" />
-  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="cm" revision="cm-11.0" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-11.0" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-11.0" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-11.0" />
@@ -468,6 +467,7 @@
   <project path="build" name="build" remote="rage" revision="rage" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="rage" revision="rage" />
   <project path="development" name="android_development" remote="rage" revision="rage" />
   <project path="frameworks/av" name="frameworks_av" remote="rage" revision="rage" />
   <project path="frameworks/base" name="frameworks_base" remote="rage" revision="rage" />
