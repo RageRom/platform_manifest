@@ -21,7 +21,6 @@ Want to build it?
 
         . build/envsetup.sh && lunch
         select device
-        make bacon -jx (x defines the amount your machine can handle= example if you are Grimm -j18 will
-        build just fine, if me -j2 and slow cook it ;09......
+        make bacon -jx (x defines the amount your machine can handle - ex. -j12
         PROFIT!
 	
